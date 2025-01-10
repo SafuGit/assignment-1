@@ -22,6 +22,12 @@ body {
   font-weight: 600;
 }
 
+.primary-btn:hover {
+  cursor: pointer;
+  /* background-color: white; */
+  color: black;
+}
+
 .btn-green-outline {
   color: #006A50;
   background-color: white;
@@ -31,6 +37,12 @@ body {
   width: 100px;
   font-family: inherit;
   font-weight: 600;
+}
+
+.btn-green-outline:hover {
+  cursor: pointer;
+  background-color: #09A15C;
+  color: white;
 }
 
 .section-title {
@@ -153,6 +165,11 @@ nav {
   width: 120px;
 }
 
+.blue-btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .yellow-btn {
   color: white;
   background-color: #FFC239;
@@ -162,6 +179,11 @@ nav {
   width: 120px;
 }
 
+.yellow-btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .green-btn {
   color: white;
   background-color: #09A15C;
@@ -169,6 +191,11 @@ nav {
   border: none;
   padding: 13px;
   width: 120px;
+}
+
+.green-btn:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .vision-btn {
@@ -202,8 +229,18 @@ nav {
   border: 1px solid #0E0E0E15;
 }
 
+.donate-card:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #09A15C;
+}
+
 #green-donate-card {
   background-color: #C6E4D6;
+}
+
+#green-donate-card:hover {
+  background-color: #09A15C;
 }
 
 .full-width-input {
