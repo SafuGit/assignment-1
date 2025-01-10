@@ -29,15 +29,19 @@ body {
   border: 1px solid #006A50;
   padding: 12px;
   width: 100px;
+  font-family: inherit;
+  font-weight: 600;
 }
 
 .section-title {
   font-weight: bold;
   font-size: 32px;
+  margin-bottom: 27px;
 }
 
 .section-subtitle {
   color: #0E0E0E70;
+  margin-bottom: 24px;
 }
 
 .section-margint {
@@ -67,6 +71,7 @@ nav {
   margin: 0 auto;
   align-items: center;
   border-radius: 16px;
+  margin-top: 24px;
   /* margin: 16px; */
   padding: 50px;
 }
@@ -168,13 +173,54 @@ nav {
 
 .vision-btn {
   margin-top: 40px;
+  font-family: inherit;
   /* margin-top: auto; */
 }
 
-#vision-title {
-  margin-bottom: 27px;
+/* *Donate Section */
+.donate {
+  width: 80vw;
+  margin: 0 auto;
 }
 
-#vision-subtitle {
-  margin-bottom: 24px;
+.donate-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate-card {
+  font-size: 40px;
+  padding: 34px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border: 1px solid #0E0E0E15;
+}
+
+#green-donate-card {
+  background-color: #C6E4D6;
+}
+
+.full-width-input {
+  margin-top: 20px;
+  padding: 16px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border: 1px solid #0E0E0E15;
+}
+
+.full-width-input[placeholder] {
+  font-family: inherit;
+  text-align: center;
+  font-size: 16px;
+}
+
+.donate-btn {
+  text-align: center;
+  margin-top: 29px;
+  border-radius: 8px;
 }
