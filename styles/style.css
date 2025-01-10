@@ -9,6 +9,29 @@ body {
   font-family: "Fira Sans", serif;
 }
 
+/* *Nav Section */
+/* TODO: Try to fix nav alignment */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.btn-green-outline {
+  color: #006A50;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #006A50;
+  padding: 12px;
+  width: 100px;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 27px;
+}
+
 /* *Banner Section */
 .banner {
   display: flex;
