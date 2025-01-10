@@ -31,6 +31,15 @@ body {
   width: 100px;
 }
 
+.section-title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.section-subtitle {
+  color: #0E0E0E70;
+}
+
 /* *Nav Section */
 /* TODO: Try to fix nav alignment */
 nav {
@@ -74,4 +83,38 @@ nav {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
+}
+
+/* *Vision Section */
+.vision {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.vision-container {
+  display: flex;
+  width: 75vw;
+  flex-direction: column;
+}
+
+.vision-cards {
+  display: flex;
+  gap: 18px;
+}
+
+.vision-card {
+  border-radius: 16px;
+  padding: 27px;
+}
+
+#vision-card1 {
+  background-color: #5490F520;
+}
+
+#vision-card2 {
+  background-color: #C6E4D6;
+}
+
+#vision-card3 {
+  background-color: #F7EBCF;
 }
