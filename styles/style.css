@@ -40,6 +40,10 @@ body {
   color: #0E0E0E70;
 }
 
+.section-margint {
+  margin-top: 80px !important;
+}
+
 /* *Nav Section */
 /* TODO: Try to fix nav alignment */
 nav {
@@ -87,13 +91,13 @@ nav {
 
 /* *Vision Section */
 .vision {
-  width: 75vw;
+  width: 80vw;
   margin: 0 auto;
 }
 
 .vision-container {
   display: flex;
-  width: 75vw;
+  width: 80vw;
   flex-direction: column;
 }
 
@@ -105,6 +109,7 @@ nav {
 .vision-card {
   border-radius: 16px;
   padding: 27px;
+  width: 410px;
 }
 
 #vision-card1 {
@@ -117,4 +122,59 @@ nav {
 
 #vision-card3 {
   background-color: #F7EBCF;
+}
+
+.vision-card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.vision-card-subtitle {
+  font-size: 14px;
+  color: #0e0e0ec7;
+}
+
+.vision-card-img {
+  margin-bottom: 16px;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #5490F5;
+  border-radius: 8px;
+  border: none;
+  padding: 13px;
+  width: 120px;
+}
+
+.yellow-btn {
+  color: white;
+  background-color: #FFC239;
+  border-radius: 8px;
+  border: none;
+  padding: 13px;
+  width: 120px;
+}
+
+.green-btn {
+  color: white;
+  background-color: #09A15C;
+  border-radius: 8px;
+  border: none;
+  padding: 13px;
+  width: 120px;
+}
+
+.vision-btn {
+  margin-top: 40px;
+  /* margin-top: auto; */
+}
+
+#vision-title {
+  margin-bottom: 27px;
+}
+
+#vision-subtitle {
+  margin-bottom: 24px;
 }
