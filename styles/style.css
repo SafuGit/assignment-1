@@ -220,6 +220,7 @@ nav {
   margin-top: 40px;
   font-family: inherit;
   align-self: flex-end;
+  font-weight: 600;
   /* margin-top: auto; */
 }
 
@@ -386,6 +387,8 @@ nav {
   margin-top: 0;
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 #newsletter-inputfield[placeholder] {
@@ -428,6 +431,14 @@ footer {
 .social-icons {
   margin-top: 18px;
   margin-bottom: 50px;
+}
+
+.social-icons img {
+  margin-right: 23px;
+}
+
+#x-logo {
+  margin-right: 0px;
 }
 
 /* *Quote Section */
