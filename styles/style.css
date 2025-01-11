@@ -433,6 +433,10 @@ footer {
   margin-bottom: 50px;
 }
 
+.social-icons img:hover {
+  cursor: pointer;
+}
+
 .social-icons img {
   margin-right: 23px;
 }
@@ -474,4 +478,27 @@ footer {
   font-size: 16px;
   color: #0E0E0E;
   filter: opacity(60%);
+}
+
+/* *Pillars Section */
+.pillars {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.pillars-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pillars-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.pillar-card {
+  width: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 16px;
+  padding: 27px;
 }
