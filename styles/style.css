@@ -95,11 +95,11 @@ nav {
 .banner {
   display: flex;
   justify-content: space-between;
-  background-color: #006A5050;
+  background-color: #C6E4D6;
   width: 75vw;
   margin: 0 auto;
   align-items: center;
-  border-radius: 16px;
+  border-radius: 24px;
   margin-top: 24px;
   /* margin: 16px; */
   padding: 50px;
@@ -141,6 +141,7 @@ nav {
 }
 
 .vision-card {
+  display: grid;
   border-radius: 16px;
   padding: 27px;
   width: 410px;
@@ -218,6 +219,7 @@ nav {
 .vision-btn {
   margin-top: 40px;
   font-family: inherit;
+  align-self: flex-end;
   /* margin-top: auto; */
 }
 
