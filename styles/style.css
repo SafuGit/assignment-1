@@ -283,6 +283,10 @@ nav {
   border-radius: 8px;
 }
 
+#donate-btn-id {
+  width: 150px;
+}
+
 /* *News Section */
 .news {
   width: 80vw;
@@ -499,6 +503,7 @@ footer {
 .pillar-card {
   width: 300px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #0e0e0e38;
   border-radius: 16px;
   padding: 27px;
 }
@@ -554,6 +559,7 @@ footer {
   border-radius: 4px;
   font-weight: 500 !important;
   font-family: inherit;
+  border: 1.5px solid #0E0E0E;
 }
 
 #opinion:hover {
