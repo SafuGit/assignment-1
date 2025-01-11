@@ -349,6 +349,7 @@ nav {
   width: 80vw;
   margin: 0 auto;
   background-color: #C6E4D6;
+  border-radius: 24px;
 }
 
 .newsletter-container {
@@ -360,12 +361,20 @@ nav {
 }
 
 .newsletter-content {
-  padding: 80px, 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .newsletter-input {
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
+}
+
+#newsletter-subtitle {
+  margin-bottom: 0px;
 }
 
 #newsletter-inputfield {
