@@ -28,6 +28,22 @@ body {
   color: black;
 }
 
+.primary-btn-small {
+  background-color: #006A50;
+  color: white;
+  padding: 16px;
+  font-family: inherit;
+  border-radius: 8px;
+  width: 125px;
+  border: none;
+  font-weight: 600;
+}
+
+.primary-btn-small:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .btn-green-outline {
   color: #006A50;
   background-color: white;
@@ -260,4 +276,20 @@ nav {
   text-align: center;
   margin-top: 29px;
   border-radius: 8px;
+}
+
+/* *News Section */
+.news {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.news-cards {
+  display: flex;
 }
