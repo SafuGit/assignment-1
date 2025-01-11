@@ -421,3 +421,38 @@ footer {
   margin-top: 18px;
   margin-bottom: 50px;
 }
+
+/* *Quote Section */
+.quote-container {
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 32px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+}
+
+.quote {
+  position: relative;
+}
+
+.quote-para {
+  position: absolute;
+  top: 35px;
+}
+
+.quote-author {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.quote-author-subtitle {
+  font-size: 16px;
+  color: #0E0E0E;
+  filter: opacity(60%);
+}
