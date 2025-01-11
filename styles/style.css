@@ -388,6 +388,12 @@ nav {
   border-top-left-radius: 8px;
 }
 
+#newsletter-inputfield[placeholder] {
+  font-family: inherit;
+  text-align: start;
+  text-indent: 40px;
+}
+
 #newsletter-btn {
   height: 56px;
   width: 150px;
