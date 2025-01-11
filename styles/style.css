@@ -392,3 +392,30 @@ nav {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-title {
+  margin-top: 50px;
+  margin-bottom: 18px;
+}
+
+hr {
+  width: 60%;
+  color: #0E0E0E;
+  filter: opacity(20%);
+}
+
+footer {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+}
+
+.social-icons {
+  margin-top: 18px;
+  margin-bottom: 50px;
+}
