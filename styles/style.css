@@ -393,6 +393,8 @@ nav {
   border-bottom-left-radius: 0px;
 }
 
+/* *Footer Section */
+
 .footer-container {
   display: flex;
   flex-direction: column;
